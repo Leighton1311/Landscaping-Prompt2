@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Evergreen Landscaping</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      color: #1a1a1a;
+      background: #ffffff;
+    }
+
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url('https://images.unsplash.com/photo-1599685315640-4c9e3b3f9e38') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 14px 28px;
+      background: #2e7d32;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #256628;
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #f8f8f8;
+      padding: 25px;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 40px;
+      align-items: center;
+    }
+
+    .about img {
+      width: 100%;
+      border-radius: 12px;
+    }
+
+    .cta {
+      background: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      border-radius: 12px;
+    }
+
+    .contact {
+      text-align: center;
+    }
+
+    footer {
+      background: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Evergreen Landscaping</h1>
+    <p>Premium Lawn Care & Outdoor Design</p>
+    <a href="#contact" class="btn">Request a Quote</a>
+  </div>
+</header>
+
+<section>
+  <div class="section-title">
+    <h2>Our Services</h2>
+    <p>Reliable, high-quality landscaping solutions</p>
+  </div>
+
+  <div class="services">
+    <div class="card">
+      <h3>Lawn Maintenance</h3>
+      <p>Routine mowing, edging, and seasonal cleanup to keep your property looking sharp.</p>
+    </div>
+
+    <div class="card">
+      <h3>Landscape Design</h3>
+      <p>Custom outdoor designs that enhance curb appeal and maximize your space.</p>
+    </div>
+
+    <div class="card">
+      <h3>Plant & Shrub Care</h3>
+      <p>Professional pruning, planting, and maintenance for long-term plant health.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="about">
+    <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Landscaped yard">
+    <div>
+      <h2>About Us</h2>
+      <p>We provide professional landscaping services with a focus on quality, reliability, and attention to detail. Our goal is to help homeowners and businesses maintain beautiful, functional outdoor spaces year-round.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="cta">
+    <h2>Ready to Transform Your Property?</h2>
+    <p>Contact us today for a free estimate.</p>
+    <a href="#contact" class="btn">Get Started</a>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>(555) 123-4567</p>
+  <p>info@evergreenlandscaping.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Evergreen Landscaping. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
